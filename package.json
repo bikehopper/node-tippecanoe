@@ -1,0 +1,20 @@
+{
+  "name": "@bikehopper/node-tippecanoe",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Janky way to host tippecanoe binaries on npm",
+  "main": "index.js",
+  "scripts": {
+    "mkdir": "node make-platform-dir.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bikehopper/node-tippecanoe.git"
+  },
+  "author": "Arindam Bose",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/bikehopper/node-tippecanoe/issues"
+  },
+  "homepage": "https://github.com/bikehopper/node-tippecanoe#readme"
+}

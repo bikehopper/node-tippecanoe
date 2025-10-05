@@ -1,0 +1,3 @@
+[submodule "node-tippecanoe"]
+	path = node-tippecanoe
+	url = git@github.com:felt/tippecanoe.git
