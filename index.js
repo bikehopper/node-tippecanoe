@@ -1,4 +1,4 @@
-import { existsSync } from 'node:fs';
+import { chmod, chmodSync, existsSync } from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { spawn } from 'node:child_process';
@@ -41,6 +41,7 @@ export default async function runTippecanoe(
 
     console.log(`Running tippecanoe ${params.join(' ')}`);
     try {
+      chmodSync(tippeCanoePath, '+x');
       const proc = spawn(tippeCanoePath, params);
       proc.stdout.on('data', (data) => {
         console.log(`${data}`);
