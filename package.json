@@ -1,6 +1,6 @@
 {
   "name": "@bikehopper/node-tippecanoe",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "type": "module",
   "description": "Janky way to host tippecanoe binaries on npm",
   "main": "index.js",
