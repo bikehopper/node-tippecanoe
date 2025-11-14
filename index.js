@@ -41,7 +41,7 @@ export default async function runTippecanoe(
 
     console.log(`Running tippecanoe ${params.join(' ')}`);
     try {
-      chmodSync(tippeCanoePath, 755);
+      chmodSync(tippeCanoePath, 777);
       const proc = spawn(tippeCanoePath, params);
       proc.stdout.on('data', (data) => {
         console.log(`${data}`);
