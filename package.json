@@ -1,9 +1,10 @@
 {
   "name": "@bikehopper/node-tippecanoe",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "type": "module",
   "description": "Janky way to host tippecanoe binaries on npm",
   "main": "index.js",
+  "bin": "cli.js",
   "scripts": {
     "mkdir": "node make-platform-dir.js"
   },
